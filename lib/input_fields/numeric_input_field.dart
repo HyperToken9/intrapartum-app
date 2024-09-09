@@ -38,7 +38,7 @@ class _NumericInputFieldState extends State<NumericInputField> {
   }
 
   String _formatCounter() {
-    return widget.isInteger ? _counter.toInt().toString() : _counter.toString();
+    return widget.isInteger ? _counter.toInt().toString() : _counter.toStringAsFixed(1);
   }
 
   void _updateCounter(double change) {
@@ -51,11 +51,20 @@ class _NumericInputFieldState extends State<NumericInputField> {
   }
 
   void _incrementCounter() {
-    _updateCounter(1);
+    if (widget.isInteger){
+      _updateCounter(1);
+    }else{
+      _updateCounter(0.1);
+    }
+    
   }
 
   void _decrementCounter() {
-    _updateCounter(-1);
+    if (widget.isInteger){
+      _updateCounter(-1);
+    }else{
+      _updateCounter(-0.1);
+    }
   }
 
   @override

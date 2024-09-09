@@ -32,6 +32,7 @@ dependencies:
     sdk: flutter
 
   flutter_launcher_icons: "^0.13.1"
+  launcher_name: ^1.0.2
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
@@ -54,6 +55,10 @@ flutter_launcher_icons:
   image_path: "assets/logo-v1.png"
   adaptive_icon_foreground: "assets/logo-v1.png"
   adaptive_icon_background: "#C2B1C2"
+
+
+launcher_name:
+  default: "Intrapartum"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

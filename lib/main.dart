@@ -22,14 +22,16 @@ class MyApp extends StatelessWidget {
         backgroundColor: const Color(0xFFFFF9F9),
         appBar: AppBar(
           backgroundColor: const Color(0xFFFFF9F9),
-          title: const Text(
+          title: Align(
+            alignment: Alignment.centerLeft,
+            child: const Text(
               'INTRAPARTUM',
               style: TextStyle(
                 color: Color(0xFF1D1936),
                 fontSize: 28,
                 fontWeight: FontWeight.w800,
                 fontFamily: 'OpenSansCondensed'
-              )
+              ))
           ),
         ),
         body: AssessmentPage(),
