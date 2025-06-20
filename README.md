@@ -1,3 +1,4 @@
+<p> <img src="docs/App Logo.png" alt="App Logo" width="150"/> </p>
 # Interpartum App
 
 A **cross-platform mobile application** that helps doctors assess the probability of a patient requiring a **cesarean (C-section) delivery**. The app is designed to provide quick, accurate insights based on key patient parameters, streamlining clinical decision-making in obstetric care.
@@ -6,16 +7,12 @@ A **cross-platform mobile application** that helps doctors assess the probabilit
 
 Samples taken from live app testing
 
-- `assets/logo.png`
-- `assets/login.png`
-- `assets/form.png`
-- `assets/results.png`
-- `assets/info_popup.png`
-- `assets/demo.gif`
-
-<p align="center"> <img src="docs/App Logo.png" alt="App Logo" width="150"/> </p>
-
-<table> <tr> <td align="center"> <img src="docs/Application Login.png" alt="Login" width="200"/><br/> <sub>Login Page</sub> </td> <td align="center"> <img src="docs/Patient Data Entry Form.png" alt="Data Entry" width="200"/><br/> <sub>Data Entry Form</sub> </td> </tr> <tr> <td align="center"> <img src="docs/Results Page.png" alt="Results" width="200"/><br/> <sub>Results Page</sub> </td> <td align="center"> <img src="docs/Parameter Information Popup.png" alt="Info Popup" width="200"/><br/> <sub>Info Popup</sub> </td> </tr> </table>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+    <img src="docs/Application Login.png" alt="Login" style="width: 45%; margin: 5px;"/>
+    <img src="docs/Patient Data Entry Form.png" alt="Data Entry" style="width: 45%; margin: 5px;"/>
+    <img src="docs/Results Page.png" alt="Results" style="width: 45%; margin: 5px;"/>
+    <img src="docs/Parameter Information Popup.png" alt="Info Popup" style="width: 45%; margin: 5px;"/>
+</div>
 
 ## Getting Started
 
