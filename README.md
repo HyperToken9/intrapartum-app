@@ -20,7 +20,7 @@ Samples taken from live app testing
 
    ```bash
    git clone https://github.com/HyperToken9/intrapartum-app
-   cd cesarean-prediction-app
+   cd intrapartum-app
    ```
 
 2. Install dependencies
