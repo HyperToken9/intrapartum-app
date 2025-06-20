@@ -1,4 +1,5 @@
 <p> <img src="docs/App Logo.png" alt="App Logo" width="150"/> </p>
+
 # Interpartum App
 
 A **cross-platform mobile application** that helps doctors assess the probability of a patient requiring a **cesarean (C-section) delivery**. The app is designed to provide quick, accurate insights based on key patient parameters, streamlining clinical decision-making in obstetric care.
